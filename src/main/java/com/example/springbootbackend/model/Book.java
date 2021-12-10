@@ -29,8 +29,9 @@ public class Book {
     private long price;
 
     public Book(){
-
+ 
     }
+
     public Book(long id, String bookName, String authorName, long price){
         this.id = id;
         this.bookName = bookName;
